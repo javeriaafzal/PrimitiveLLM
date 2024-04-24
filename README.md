@@ -6,7 +6,7 @@ Saving and loading weights/vectors
 Different weight initialization techniques
 More sophisticated vectorization methods.
 
-# Theory
+## Theory
 I heard a dog [bark]
 
 Remember that the attention layer is working with numeric vector representations of the tokens, not the actual text. In a decoder, the process starts with a sequence of token embeddings representing the text to be completed. The first thing that happens is that another positional encoding layer adds a value to each embedding to indicate its position in the sequence:
